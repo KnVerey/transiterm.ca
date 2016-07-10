@@ -7465,8 +7465,13 @@ html, body {
   text-decoration: underline;
 }
 
-.normal-link:hover {
+.normal-link:hover, .normal-link:visited:hover {
   color: #1d429c;
+}
+
+.normal-link:visited {
+  color: #65759c;
+  text-decoration: underline;
 }
 
 .alert-box {
@@ -7720,14 +7725,14 @@ nav a.logo-link:hover, nav a.logo-link:active {
 }
 
 .feature-section .feature-para {
-  padding-top: 10em;
+  padding-top: 3em;
   text-align: justify;
 }
 .feature-section .feature-para a {
   white-space: nowrap;
 }
 .feature-section .feature-header {
-  padding-top: 10em;
+  padding-top: 3em;
   text-align: center;
   margin-left: 0;
 }
@@ -7735,18 +7740,16 @@ nav a.logo-link:hover, nav a.logo-link:active {
   font-size: 1.6em;
   text-align: center;
 }
-.feature-section .feature-header p {
+.feature-section p {
   text-align: justify;
 }
 
 .button-centerer {
+  padding-top: 3em;
   width: 100%;
   text-align: center;
 }
-.button-centerer .button {
-  width: 50%;
-  margin: auto;
-}
+
 .button-centerer .secondary {
   background-color: #9E9B9B;
 }
